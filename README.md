@@ -16,9 +16,9 @@ https://github.com/TheProblemShredder/ML_Eval_Harness_vOmega
 Reproducible backtest harness: prereg params, baseline vs ablation delta gate, deterministic negative control, deterministic IDs, append-only ledger, artifact manifest, CI.  
 https://github.com/TheProblemShredder/Quant_Backtest_Harness_vOmega
 
-## What I’m building next (planned)
-
-- **CLI Tooling vΩ** — packaging, configs, structured logs, tests
+4) **CLI Tooling vΩ — Public Demo**  
+Installable CLI scaffold: src/ layout, subcommands, config support (JSON/YAML), structured JSON logs, tests + CI.  
+https://github.com/TheProblemShredder/CLI_Tooling_vOmega
 
 ## What I’m looking for
 
