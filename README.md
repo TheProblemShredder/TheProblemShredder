@@ -17,3 +17,9 @@ Remote roles in:
 - Experiment discipline (controls, ablations, blinding)
 - Deterministic hashing / audit trails
 - Fast prototyping across domains
+
+## What I ship
+- Reproducible demos with CI (one-command run)
+- Clean repo structure + documentation that tells reviewers where to look
+- Evaluation harnesses: metrics → gates → decision cards → append-only ledgers
+
