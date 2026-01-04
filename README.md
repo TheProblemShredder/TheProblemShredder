@@ -12,9 +12,12 @@ https://github.com/TheProblemShredder/ScrollCert_vOmega_PublicDemo
 Generalized eval harness: baseline vs ablation vs negative control, blinded labels + reveal, deterministic IDs (AEQ/CID), append-only ledger, CI artifact checks.  
 https://github.com/TheProblemShredder/ML_Eval_Harness_vOmega
 
+3) **Quant Backtest Harness vΩ — Public Demo**  
+Reproducible backtest harness: prereg params, baseline vs ablation delta gate, deterministic negative control, deterministic IDs, append-only ledger, artifact manifest, CI.  
+https://github.com/TheProblemShredder/Quant_Backtest_Harness_vOmega
+
 ## What I’m building next (planned)
 
-- **Quant Backtest Harness vΩ** — reproducible backtests + controls + audit ledger + CI  
 - **CLI Tooling vΩ** — packaging, configs, structured logs, tests
 
 ## What I’m looking for
@@ -22,13 +25,8 @@ https://github.com/TheProblemShredder/ML_Eval_Harness_vOmega
 Remote roles where reproducibility and evaluation discipline matter:
 - Research Engineer / Evals Engineer
 - Experiment platform / tooling
-- Systems / automation (and quant tooling once the backtest repo is live)
-
-## Core strengths
-
-- Reproducible pipelines, CI-first workflows
-- Evaluation discipline (controls, ablations, prereg gates)
-- Deterministic artifacts + audit trails (hashable outputs)
+- Systems / automation
+- Quant tooling
 
 ---
 GitHub: https://github.com/TheProblemShredder
