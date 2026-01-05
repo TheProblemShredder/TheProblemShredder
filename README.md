@@ -1,32 +1,39 @@
-# TheProblemShredder (Ben Vivian)
+# TheProblemShredder
 
-I build **verification-first** research/tooling systems: preregistered thresholds, negative controls, ablations, deterministic run IDs, append-only audit ledgers, and CI that reproduces outputs.
+Verification-first engineering & research demos: preregistration → controls → ablations → blinded eval → PASS/FAIL → audit ledger.
 
-## Pinned projects (run in minutes)
+## Proof-driven public demos (clone + run)
+- **ScrollCert vΩ (Verification-First Research Demo)**  
+  https://github.com/TheProblemShredder/ScrollCert_vOmega_PublicDemo  
+  Reproducibility certificate harness: prereg thresholds, negative controls, ablations, blinded evaluation, deterministic IDs, append-only ledger.
 
-1) **ScrollCert vΩ — Public Demo**  
-Verification scaffold: preregistration, negative controls, ablation discipline, blinded arms + reveal, deterministic IDs, append-only ledger, CI reproducibility.  
-https://github.com/TheProblemShredder/ScrollCert_vOmega_PublicDemo
+- **ML Eval Harness vΩ (Public Demo)**  
+  https://github.com/TheProblemShredder/ML_Eval_Harness_vOmega  
+  Deterministic eval scaffold: prereg thresholds, delta gates, negative control gate, optional blinding + reveal, audit ledger.
 
-2) **ML Eval Harness vΩ — Public Demo**  
-Generalized eval harness: baseline vs ablation vs negative control, blinded labels + reveal, deterministic IDs (AEQ/CID), append-only ledger, CI artifact checks.  
-https://github.com/TheProblemShredder/ML_Eval_Harness_vOmega
+- **Quant Backtest Harness vΩ (Public Demo)**  
+  https://github.com/TheProblemShredder/Quant_Backtest_Harness_vOmega  
+  Deterministic backtest scaffold: prereg parameters, delta/ablation gates, negative control gate, audit-friendly outputs.
 
-3) **Quant Backtest Harness vΩ — Public Demo**  
-Reproducible backtest harness: prereg params, baseline vs ablation delta gate, deterministic negative control, deterministic IDs, append-only ledger, artifact manifest, CI.  
-https://github.com/TheProblemShredder/Quant_Backtest_Harness_vOmega
+- **CLI Tooling vΩ (Public Demo)**  
+  https://github.com/TheProblemShredder/CLI_Tooling_vOmega  
+  Production-style Python CLI scaffold: subcommands, config support, structured JSON logging, deterministic run IDs, tests + CI.
 
-4) **CLI Tooling vΩ — Public Demo**  
-Installable CLI scaffold: src/ layout, subcommands, config support (JSON/YAML), structured JSON logs, tests + CI.  
-https://github.com/TheProblemShredder/CLI_Tooling_vOmega
+## Why this exists
+Most “results” don’t ship with:
+- preregistered thresholds  
+- negative controls  
+- ablation discipline  
+- deterministic IDs + content-hash evidence spine  
+- append-only audit ledger
 
-## What I’m looking for
+These repos show the scaffolding to make that normal.
 
-Remote roles where reproducibility and evaluation discipline matter:
-- Research Engineer / Evals Engineer
-- Experiment platform / tooling
-- Systems / automation
-- Quant tooling
+## What I’m open to
+- Verification / evaluation infrastructure
+- Reproducible research tooling
+- ML/quant experiment harnesses
+- Applied cryptographic provenance / audit trails
+- Systems & automation around CI + artifacts
 
----
-GitHub: https://github.com/TheProblemShredder
+📍 UK — open to remote / relocation for the right role.
